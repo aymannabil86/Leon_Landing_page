@@ -26,7 +26,7 @@ html{
 }
 /* start components */
 .special-heading{
-    color: #ebeced;
+    color:#cbcbcc; /* #ebeced; */
     font-size: 100px;
     text-align: center;
     font-weight: 800;
@@ -208,6 +208,7 @@ body{
 .landing{
     background-image: url(../img/landing.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
     height: calc(100vh - 64px);
 
@@ -324,7 +325,7 @@ body{
     z-index: -1;
 
 }
-@media (max-width:1199px){
+@media (max-width:991px){
     .image-column{
         display: none;
     }
